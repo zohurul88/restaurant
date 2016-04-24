@@ -20,3 +20,4 @@ Route::auth();
 Route::get('/home', 'HomeController@index');
 
 Route::get('/restaurant', 'RestaurantCreate@index');
+Route::get('/restaurant/add', 'RestaurantCreate@insert');

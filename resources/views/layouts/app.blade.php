@@ -80,7 +80,7 @@
 
                 <div class="panel-body">
                     <ul class="nav nav-pills nav-stacked">
-                        <li><a href="#">Restaurant</a></li>
+                        <li><a href="{{ url('/restaurant')}}">Restaurant</a></li>
                     </ul>
                 </div>
             </div>
